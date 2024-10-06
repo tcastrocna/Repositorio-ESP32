@@ -1,9 +1,5 @@
 
-# Iniciando a Programação com ESP32
-
-Conjuntos de códigos simples para iniciar a programação com ESP32.
-
-## Instalação do Arduino IDE e Configuração do ESP32
+# Instalação do Arduino IDE e Configuração do ESP32
 
 ### Passo 1: Instalar o Arduino IDE
 
