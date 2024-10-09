@@ -37,26 +37,6 @@
 6. **Selecionar a Placa ESP32**:
    - Após a instalação, vá para **Ferramentas** > **Placa** e escolha a placa ESP32 que você está usando (por exemplo, "ESP32 Dev Kit V1").
 
-### Possíveis Erros
-
-#### O Windows Não Reconhece a Placa ESP32
-
-Se o Windows não reconhecer a sua placa ESP32, pode ser necessário instalar o driver correspondente.
-
-##### Solução:
-
-1. Baixe e instale os drivers CP210x (versão v6.7.6):
-   - Acesse o site oficial da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
-   - Escolha a versão correta para o seu sistema operacional (32-bit ou 64-bit).
-   - Siga as instruções de instalação fornecidas.
-
-2. Após a instalação, desconecte e reconecte a placa ESP32 ao computador.
-3. Verifique se a porta é reconhecida no Arduino IDE em **Ferramentas** >  **Porta**.
-
-Se o problema persistir, tente reiniciar o computador e verificar as conexões da placa.
-
----
-
 ## Acendendo o LED da Placa ESP32
 
 Agora que você já configurou o Arduino IDE para o ESP32, vamos testar o funcionamento da placa acendendo o LED embutido.
