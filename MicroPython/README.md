@@ -2,7 +2,7 @@
 
 Este guia descreve o processo de instalação do Thonny IDE no Windows para trabalhar com ESP32.
 
-## Passo 1: Instalar Python
+## 📥 Passo 1: Instalar Python
 
 1. Acesse o site oficial do Python: [⬇️Download Python](https://www.python.org/downloads/).
 2. Baixe a versão mais recente do Python compatível com o Windows.
@@ -14,7 +14,7 @@ Este guia descreve o processo de instalação do Thonny IDE no Windows para trab
 1. Acesse o site oficial do Thonny IDE: [⬇️Download Thonny](https://thonny.org/).
 2. Baixe a versão mais recente para Windows.
 3. Siga as instruções de instalação do Thonny IDE.
-
+ 
 ## Passo 3: Configurar Thonny para ESP32
 
 1. Abra o Thonny IDE após a instalação.
@@ -68,7 +68,7 @@ Se o Windows não reconhecer a sua placa ESP32, é possível que seja um problem
 #### Solução:
 
 1. Baixe e instale os drivers CP210x (versão v6.7.6):
-   - Acesse o site oficial da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
+   - Baixe o arquivo da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](./Drivers/CP210x_VCP_Windows.zip).
    - Escolha a versão correta para o seu sistema operacional (32-bit ou 64-bit).
    - Siga as instruções de instalação fornecidas.
 
@@ -77,5 +77,5 @@ Se o Windows não reconhecer a sua placa ESP32, é possível que seja um problem
 
 Se o problema persistir, tente reiniciar o computador e verificar novamente as conexões da placa.
 
-## Conclusão
+---
 Agora seu ESP32 está pronto para receber e executar código Python usando o Thonny IDE no Windows. Se tiver dúvidas ou problemas, consulte a [documentação oficial do Thonny](https://thonny.org/doc/).

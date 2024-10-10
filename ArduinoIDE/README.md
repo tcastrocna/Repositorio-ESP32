@@ -86,22 +86,19 @@ Após o código ser carregado com sucesso, o LED embutido na placa ESP32 deve co
 
 ## ❌ Possíveis Erros
 
-### ⚠️ O Windows Não Reconhece a Placa ESP32
+### O Windows Não Reconhece a Placa ESP32
 
-Se o Windows não reconhecer a sua placa ESP32, pode ser um problema de driver USB.
+Se o Windows não reconhecer a sua placa ESP32, é possível que seja um problema de driver para comunicação USB, e pode ser necessário instalar o driver correspondente.
 
 #### Solução:
 
 1. Baixe e instale os drivers CP210x (versão v6.7.6):
-   - Acesse o site oficial da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
-   - Escolha a versão correta para o seu sistema (32-bit ou 64-bit).
+   - Baixe o arquivo da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](./Drivers/CP210x_VCP_Windows.zip).
+   - Escolha a versão correta para o seu sistema operacional (32-bit ou 64-bit).
    - Siga as instruções de instalação fornecidas.
 
 2. Após a instalação, desconecte e reconecte a placa ESP32 ao computador.
-3. Verifique se a porta é reconhecida no **Thonny IDE** em **Tools** > **Options** > **Interpreter**, na seção **Port**.
+3. Verifique se a porta é reconhecida no Thonny IDE em **Tools** > **Options** > **Interpreter** na seção **Port**.
 
 Se o problema persistir, tente reiniciar o computador e verificar novamente as conexões da placa.
 
----
-
-Essa formatação com emojis, seções bem destacadas e um layout mais limpo pode ajudar a tornar o README.md mais atraente e fácil de seguir.
