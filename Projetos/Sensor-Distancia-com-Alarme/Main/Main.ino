@@ -1,7 +1,10 @@
 #include <Arduino.h>
 #include <LiquidCrystal.h> // Biblioteca para o display LCD
 
-// Pinagem
+// Define a pinagem de ajuste e configuração do display LCD
+const byte lcdRS = 13, lcdEn = 12, lcdD4 = 14, lcdD5 = 27, lcdD6 = 26, lcdD7 = 25;
+
+// Pinagem do buzzer e sensor distância
 const int buzz = 22;
 const int triggerPin = 18; // Pino TRIG do sensor ultrassônico
 const int echoPin = 19;    // Pino ECHO do sensor ultrassônico
@@ -11,8 +14,8 @@ long tempo;            // Para armazenar o tempo de ida e volta do sinal em micr
 float distancia_cm;    // Para armazenar a distância em centímetros
 float distancia_in;    // Para armazenar a distância em polegadas
 
-// Inicialização do display LCD
-LiquidCrystal lcd(13, 12, 14, 27, 26, 25);
+// Inicia o objeto LiquidCrystal para comunicação com o LCD
+LiquidCrystal lcd(lcdRS, lcdEn, lcdD4, lcdD5, lcdD6, lcdD7);
 
 void setup() {
   pinMode(triggerPin, OUTPUT); // Configura pino TRIG como saída
