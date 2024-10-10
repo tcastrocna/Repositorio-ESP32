@@ -68,7 +68,7 @@ Se o Windows não reconhecer a sua placa ESP32, é possível que seja um problem
 #### Solução:
 
 1. Baixe e instale os drivers CP210x (versão v6.7.6):
-   - Baixe o arquivo da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](https://github.com/engetiagocunha/ESP32/raw/refs/heads/main/ArduinoIDE/Drivers/CP210x_VCP_Windows.zip).
+   - Baixe o arquivo da Silicon Labs: [⬇️ CP210x Windows Drivers v6.7.6](./Drivers/CP210x_VCP_Windows.zip).
    - Escolha a versão correta para o seu sistema operacional (32-bit ou 64-bit).
    - Siga as instruções de instalação fornecidas.
 
