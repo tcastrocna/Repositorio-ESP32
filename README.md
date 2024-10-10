@@ -1,7 +1,5 @@
 # 🌍 ESP32 Repositório
 
-Bem-vindo ao repositório de exemplos, tutoriais e projetos para o ESP32. Este repositório contém instruções  para configuração, instalação e desenvolvimento de aplicações usando **Arduino IDE** e **MicroPython**, além de diversos projetinhos.
-
 ## 🗃️ Estrutura do Repositório
 
 - **📁[ArduinoIDE/](./ArduinoIDE/)**: Tutoriais e guias para desenvolvimento usando Arduino IDE, com links para download de drivers necessários como o **CP210x**.
@@ -17,6 +15,7 @@ Bem-vindo ao repositório de exemplos, tutoriais e projetos para o ESP32. Este r
 - **📁[Controle de Temperatura e Umidade Ambiente](./Projetos/Controle-Temp-Umid-Ambiente/)**
 - **📁[Irrigação Automatizada](./Projetos/Irrigacao-Automatizada/)**
 - **📁[]()**
+
 
 ## 📝 Contribuição
 Se deseja contribuir para este repositório, sinta-se à vontade para abrir uma issue ou enviar um pull request!
